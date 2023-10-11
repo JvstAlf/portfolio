@@ -1,0 +1,191 @@
+@media screen and (max-width: 450px){
+
+    .title {
+      font-size: 7rem;
+      text-align: center;
+    }
+  
+    .title:hover + .mouse{
+      display: none
+    }
+  
+    .subtitle {
+      font-size: 3rem;
+      margin-bottom: 5rem;
+      margin-top: 0;
+    }
+
+    .navbar {
+      display: none;
+    }
+
+    .about-me {
+      flex-direction: column;
+      height: 35rem;
+      border-radius: 2rem;
+    }
+
+    .back {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .back div p {
+      margin-bottom: 0;
+
+    }
+
+    .back p {
+      font-size: 1.2rem;
+      padding: 0;
+    }
+
+    .back div {
+      margin-top: 0;
+    }
+
+    progress {
+      width: 14rem;
+      height: 1rem;
+      margin: 0;
+    }
+
+    .back div:last-child {
+      justify-content: center;
+    }
+
+    .back p:last-child {
+      margin: 1rem 0 0 0
+    }
+
+    .about-me-info {
+      padding: 0;
+    }
+
+    .info {
+      justify-content: center;
+    }
+
+    .front {
+      flex-direction: column;
+    }
+
+    .io-image img {
+      width: 8rem;
+      height: 8rem;
+      margin: 1rem 0 1rem 0;
+      border-radius: 2rem;
+    }
+
+    .h1 {
+      font-size: 2rem;
+    }
+
+    .full-portfolio {
+      width: 8rem;
+      height: 2rem;
+      padding: 0;
+      border-radius: 0.75rem;
+    }
+
+    .full-portfolio p {
+      font-size: 1.2rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    .works {
+      height: 100vh;
+      transform: translateY(-100%);
+      padding: 2rem;
+      display: flex;
+      grid-template-columns: 35% 65%;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      flex-direction: column;
+    }
+    
+
+    .carousel-container {
+      border-radius: 15px;
+      overflow: hidden;
+      width: 300px;
+      height: 428.57px;
+    }
+
+    .carousel-container1 {
+      border-radius: 15px;
+      overflow: hidden;
+      width: 300px;
+      height: 428.57px;
+    }
+
+    .carousel-container2 {
+      border-radius: 15px;
+      overflow: hidden;
+      width: 300px;
+      height: 428.57px;
+    }
+
+    .mySlides {
+      display: none;
+      width: 300px;
+      height: 428.57px;
+      object-fit: cover;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .mySlides1 {
+      display: none;
+      width: 300px;
+      height: 428.57px;
+      object-fit: cover;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .mySlides2 {
+      display: none;
+      width: 300px;
+      height: 428.57px;
+      object-fit: cover;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .mySlides img {
+      display: block;
+      width: 300px;
+      height: 428.57px;
+    }
+    
+    .mySlides1 img {
+      display: block;
+      width: 300px;
+      height: 428.57px;
+    }
+    
+    .mySlides2 img {
+      display: block;
+      width: 300px;
+      height: 428.57px;
+    }
+
+    .prev2,
+.next2 {
+  font-size: 12px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid red;
+}
+
+.next2 {
+  right: 0;
+  border-radius: 0 20px 20px 0;
+}
+
+
+}
