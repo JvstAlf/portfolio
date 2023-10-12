@@ -15,6 +15,10 @@ body,html {
     box-sizing: border-box;
 }
 
+body {
+  position: relative
+}
+
 .homepage {
     height: 100vh;
     width: 100%;
@@ -272,16 +276,21 @@ body,html {
   flex-direction: column;
 }
 
-.website-menu p {
-  font-family: var(--font);
-  font-size: 1.5rem;
+.website-menu div {
   border-radius: 1rem;
   background-color: #cbcbcb;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   cursor: pointer;
   transition: 0.3s;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0.3rem 0.7rem;
+}
+
+.website-menu div p {
+  font-family: var(--font);
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
 .website-menu p:hover {
@@ -934,4 +943,93 @@ li {
   border-radius: 0.5rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
   transition: 0.5s;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  bottom: 0;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+  background: linear-gradient(0deg, rgba(141,118,233,1) 0%, rgba(105,225,243,1) 100%);
+  background-size: 300% 300%;
+  background-position: bottom;
+  animation: gradient 10s infinite linear;
+}
+
+.footer-links {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-element { 
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-element p:first-child {
+  font-family: var(--font);
+  font-size: 3rem;
+  color: white;
+}
+
+.footer-links div a {
+  font-family: var(--font);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.footer-links div a:hover {
+  scale: 1.1;
+}
+
+.copyright {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p {
+  font-family: var(--font);
+  font-size: 1.5rem;
+  color: white;
+}
+
+.contacts {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts a {
+  height: 3rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  height: 100%;
+  padding: 0.5rem;
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }

@@ -7,7 +7,6 @@ let navbarA = document.querySelectorAll('navbara')
 let li1 = document.getElementById('li1')
 let li2 = document.getElementById('li2')
 let li3 = document.getElementById('li3')
-let li4 = document.getElementById('li4')
 const lis = document.querySelectorAll('li');
 let aboutMe = document.getElementById('about-me')
 let back = document.getElementById('back')
@@ -91,11 +90,9 @@ document.addEventListener('scroll', function scr() {
     li1.style.transition = "0.5s ease"
     li2.style.transition = "0.5s ease"
     li3.style.transition = "0.5s ease"
-    li4.style.transition = "0.5s ease"
     li1.style.color = "var(--lilla)"
     li2.style.color = "var(--lilla)"
     li3.style.color = "var(--lilla)"
-    li4.style.color = "var(--lilla)"
     lis.forEach((li) => {
       li.style.setProperty('--li-hover', 'rgb(152, 145, 251)');
     });
@@ -103,7 +100,6 @@ document.addEventListener('scroll', function scr() {
     li1.style.color = "white"
     li2.style.color = "white"
     li3.style.color = "white"
-    li4.style.color = "white"
     lis.forEach((li) => {
       li.style.setProperty('--li-hover', 'white');
     });
@@ -112,11 +108,9 @@ document.addEventListener('scroll', function scr() {
     li1.style.transition = "0.5s ease"
     li2.style.transition = "0.5s ease"
     li3.style.transition = "0.5s ease"
-    li4.style.transition = "0.5s ease"
     li1.style.color = "white"
     li2.style.color = "white"
     li3.style.color = "white"
-    li4.style.color = "white"
     lis.forEach((li) => {
       li.style.setProperty('--li-hover', 'white');
     });
@@ -125,11 +119,9 @@ document.addEventListener('scroll', function scr() {
     li1.style.transition = "0.5s ease"
     li2.style.transition = "0.5s ease"
     li3.style.transition = "0.5s ease"
-    li4.style.transition = "0.5s ease"
     li1.style.color = "var(--lilla)"
     li2.style.color = "var(--lilla)"
     li3.style.color = "var(--lilla)"
-    li4.style.color = "var(--lilla)"
     lis.forEach((li) => {
       li.style.setProperty('--li-hover', 'rgb(152, 145, 251)');
     });
@@ -229,28 +221,5 @@ function openPortfolio() {
 
 window.addEventListener('resize', function() {
   if(window.innerWidth < 450) {
-    aboutMe.vanillaTilt.destroy();
   }
 })
-
-window.addEventListener('resize', function() {
-  if(window.innerWidth > 1600) {
-    VanillaTilt.init(aboutMe)
-  }
-})
-
-// data-tilt-perspective="1000" data-tilt-speed="300" data-tilt-max="5" data-tilt-transition="true" data-tilt-easing="ease" data-tilt-scale="1.1"
-
-
-
-// window.onload = function init() {
-//   VanillaTilt.init(aboutMe)
-//   aboutMe.setAttribute('data-tilt', '')
-//   aboutMe.setAttribute('data-tilt-perspective', '1000')
-//   aboutMe.setAttribute('data-tilt-speed', '300')
-//   aboutMe.setAttribute('data-tilt-max', '5')
-//   aboutMe.setAttribute('data-tilt-transition', 'true')
-//   aboutMe.setAttribute('data-tilt-easing', 'ease')
-//   aboutMe.setAttribute('data-tilt-scale', '1.1')
-//   console.log('pk')
-// }
