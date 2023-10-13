@@ -259,6 +259,8 @@
         <div class="websites" id="websites">
           <div class="website-display watch1">
 
+            <p class="website-title">Websites</p>
+
             <div class="website-menu">
               <div><p onclick="website1()">PORTFOLIO</p></div>
               <div><p onclick="website2()">OFF-WHITE</p></div>
@@ -281,15 +283,21 @@
 
               <p>LINKS</p>
 
+              <div>
+
               <a href="#homepage">Homepage</a>
               <a href="#info">About Me</a>
               <a href="#works">Portfolio</a>
               <a href="#websites">Websites</a>
 
+              </div>
+
             </div>
 
             <div class="footer-element">
               <p>CONTACTS</p>
+
+              <div>
 
               <div class="contacts">
                 <img class="social-icon" src="images/github.svg" draggable="false">
@@ -303,17 +311,24 @@
 
               <div class="contacts">
                 <img class="social-icon" src="images/email.svg" draggable="false">
-                <a href="mailto:alviseezurlandi@gmail.com" target="_blank">Email</a>
+                <a href="mailto:alviseezurlandi@gmail.com" target="_blank"><abbr title="alviseezurlandi@gmail.com">Email</abbr></a>
               </div>
+
+              </div>
+
             </div>
 
             <div class="footer-element">
               <p>MORE</p>
+
+              <div>
               
               <a href="https://jvstalf.repl.co/" target="_blank">Website Portfolio</a>
               <a href="images/Portfolio.pdf" target="_blank">Portfolio</a>
               <a href="https://off---white.vercel.app/" target="_blank">Off-White Website</a>
               <a href="https://gpt3-react-test.vercel.app/" target="_blank">React Website</a>
+
+              </div>
 
             </div>
 
@@ -324,6 +339,13 @@
         <script src="js/script.js"></script>
         <script src="js/vanilla-tilt.min.js"></script>
         <script src="js/carousel.js"></script>
+        
+        <script>
+          history.scrollRestoration = "manual";
+          window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+          }
+        </script>
 
     </body>
 </html>

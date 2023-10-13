@@ -55,11 +55,6 @@ function toInfo() {
     })
 }
 
-history.scrollRestoration = "manual";
-window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  }
-
 // elements
 var elements_to_watch = document.querySelectorAll('.watch');
 // callback 

@@ -264,6 +264,14 @@ body {
   scale: 0;
 }
 
+.website-title {
+  font-family: var(--font);
+  font-size: 2rem;
+  padding: 0;
+  margin: 0.5rem;
+  display: none;
+}
+
 .website-menu {
   width: 15rem;
   height: 100%;
@@ -963,14 +971,15 @@ li {
   width: 100%;
   height: 90%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-element { 
   width: 100%;
   align-items: center;
+  height: 50%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -986,10 +995,12 @@ li {
   margin-bottom: 1rem;
   cursor: pointer;
   transition: 0.25s;
+  border-bottom: 1px solid transparent;
 }
 
 .footer-links div a:hover {
   scale: 1.1;
+  border-bottom: 1px white solid;
 }
 
 .copyright {
@@ -1016,11 +1027,11 @@ li {
 }
 
 .contacts a {
-  height: 3rem;
-  margin-top: 1rem;
   font-size: 1.5rem;
+  margin-top: 1rem;
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .social-icon {
@@ -1032,4 +1043,8 @@ img {
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
+}
+
+abbr {
+  text-decoration: none;
 }
