@@ -172,16 +172,28 @@ function flipAboutMe2() {
 }
 
 function website1() {
-  iframe.setAttribute('src', 'https://jvstalf.repl.co/')
+  if (window.innerWidth <= 950) {
+    window.open('https://jvstalf.repl.co/')
+  } else {
+    iframe.setAttribute('src', 'https://jvstalf.repl.co/')
+  }
 }
 
 function website2() {
-  iframe.setAttribute('src', 'https://off---white.vercel.app/')
-  alert('website is unfinished')
+  if (window.innerWidth <= 950) {
+    window.open('https://off---white.vercel.app/')
+  } else {
+    iframe.setAttribute('src', 'https://off---white.vercel.app/')
+    alert('website is unfinished')
+  }
 }
 
 function website3() {
-  iframe.setAttribute('src', 'https://gpt3-react-test.vercel.app/')
+  if (window.innerWidth <= 950) {
+    window.open('https://gpt3-react-test.vercel.app/')
+  } else {
+    iframe.setAttribute('src', 'https://gpt3-react-test.vercel.app/')
+  }
 }
 
 // elements
@@ -213,8 +225,3 @@ function openWebsite() {
 function openPortfolio() {
   window.open('../images/Portfolio.pdf')
 }
-
-window.addEventListener('resize', function() {
-  if(window.innerWidth < 450) {
-  }
-})

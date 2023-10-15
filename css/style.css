@@ -299,9 +299,10 @@ body {
   font-size: 1.5rem;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
-.website-menu p:hover {
+.website-menu div:hover {
   scale: 1.1;
   background-color: #b9b9b9;
   color: var(--gradient-text);
@@ -639,6 +640,7 @@ p {
   box-shadow: rgba(0, 0, 0, 0.5) 0 1rem 2rem;
   transform: perspective(1000px);
   transform-style: preserve-3d;
+  object-fit: cover;
 }
 
 .carousel-container2 {
@@ -653,6 +655,7 @@ p {
   box-shadow: rgba(0, 0, 0, 0.5) 0 1rem 2rem;
   transform: perspective(1000px);
   transform-style: preserve-3d;
+  object-fit: cover;
 }
 
 /* Hide the images by default */
@@ -698,44 +701,7 @@ p {
 } */
 
 /* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  width: auto;
-  padding: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  border-radius: 0 30px 30px 0;
-  background: rgba(0, 0, 0, 0);
-  user-select: none;
-  transition: 0.5s;
-  text-shadow: black 0 5px 10px;
-}
-
-.prev1,
-.next1 {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  width: auto;
-  padding: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  border-radius: 0 30px 30px 0;
-  background: rgba(0, 0, 0, 0);
-  user-select: none;
-  transition: 0.5s;
-  text-shadow: black 0 5px 10px;
-}
-
-.prev2,
-.next2 {
+.prev, .next, .prev1, .next1, .prev2, .next2 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -1023,6 +989,12 @@ li {
   flex-direction: row;
   height: 3rem;
   justify-content: center;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
