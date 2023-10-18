@@ -437,6 +437,11 @@ progress {
     -webkit-appearance: none;
 }
 
+progress {
+  background: linear-gradient(90deg, rgb(119, 99, 199)0%, rgb(77, 160, 173) 100%);
+  border-radius: 1rem;
+}
+
 progress::-webkit-progress-bar {
   background-color: #dcdcdc;
   border-radius: 1rem;
