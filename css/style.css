@@ -438,8 +438,9 @@ progress {
 }
 
 progress {
-  background: linear-gradient(90deg, rgb(119, 99, 199)0%, rgb(77, 160, 173) 100%);
   border-radius: 1rem;
+  outline: none;
+  border: none;
 }
 
 progress::-webkit-progress-bar {
@@ -448,7 +449,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-moz-progress-bar {
-  background-color: #dcdcdc;
+  background: linear-gradient(90deg, rgb(119, 99, 199)0%, rgb(77, 160, 173) 100%);
   border-radius: 1rem;
 }
 
