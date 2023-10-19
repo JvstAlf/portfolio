@@ -173,9 +173,9 @@ function flipAboutMe2() {
 
 function website1() {
   if (window.innerWidth <= 950) {
-    window.open('https://jvstalf.repl.co/')
+    window.open('https://portfolio.alvise.me')
   } else {
-    iframe.setAttribute('src', 'https://jvstalf.repl.co/')
+    iframe.setAttribute('src', 'https://portfolio.alvise.me')
   }
 }
 
