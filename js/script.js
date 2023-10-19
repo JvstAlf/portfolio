@@ -181,18 +181,18 @@ function website1() {
 
 function website2() {
   if (window.innerWidth <= 950) {
-    window.open('https://off---white.vercel.app/')
+    window.open('https://off-white.alvise.me')
   } else {
-    iframe.setAttribute('src', 'https://off---white.vercel.app/')
+    iframe.setAttribute('src', 'https://off-white.alvise.me')
     alert('website is unfinished')
   }
 }
 
 function website3() {
   if (window.innerWidth <= 950) {
-    window.open('https://gpt3-react-test.vercel.app/')
+    window.open('https://react-app.alvise.me')
   } else {
-    iframe.setAttribute('src', 'https://gpt3-react-test.vercel.app/')
+    iframe.setAttribute('src', 'https://react-app.alvise.me')
   }
 }
 
