@@ -184,7 +184,6 @@ function website2() {
     window.open('https://off-white.alvise.me')
   } else {
     iframe.setAttribute('src', 'https://off-white.alvise.me')
-    alert('website is unfinished')
   }
 }
 
