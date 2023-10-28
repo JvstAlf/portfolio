@@ -2,7 +2,7 @@
     font-family: 'Voga Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Voga Medium'), url('../fonts/Voga-Medium.woff') format('woff');
+    src: local('../fonts/Voga-Medium.woff'), url('../fonts/Voga-Medium.woff') format('woff');
     font-display: optional
     }
 
