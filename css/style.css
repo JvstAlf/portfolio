@@ -3,6 +3,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('Voga Medium'), url('../fonts/Voga-Medium.woff') format('woff');
+    font-display: optional
     }
 
 body,html {
