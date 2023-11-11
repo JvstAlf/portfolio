@@ -195,6 +195,14 @@ function website3() {
   }
 }
 
+function website4() {
+  if (window.innerWidth <= 950) {
+    window.open('https://nido-bimbibelli.vercel.app/')
+  } else {
+    iframe.setAttribute('src', 'https://nido-bimbibelli.vercel.app/')
+  }
+}
+
 // elements
 var elements_to_watch = document.querySelectorAll('.watch1');
 // callback 
