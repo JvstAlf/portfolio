@@ -173,25 +173,26 @@ function flipAboutMe2() {
 
 function website1() {
   if (window.innerWidth <= 950) {
-    window.open('https://portfolio.alvise.me')
+    window.open('https://jvstalf.repl.co/')
   } else {
-    iframe.setAttribute('src', 'https://portfolio.alvise.me')
+    iframe.setAttribute('src', 'https://jvstalf.repl.co/')
   }
 }
 
 function website2() {
   if (window.innerWidth <= 950) {
-    window.open('https://off-white.alvise.me')
+    window.open('https://off---white.vercel.app/')
   } else {
-    iframe.setAttribute('src', 'https://off-white.alvise.me')
+    iframe.setAttribute('src', 'https://off---white.vercel.app/')
+    alert('website is unfinished')
   }
 }
 
 function website3() {
   if (window.innerWidth <= 950) {
-    window.open('https://react-app.alvise.me')
+    window.open('https://gpt3-react-test.vercel.app/')
   } else {
-    iframe.setAttribute('src', 'https://react-app.alvise.me')
+    iframe.setAttribute('src', 'https://gpt3-react-test.vercel.app/')
   }
 }
 
