@@ -81,46 +81,6 @@ document.addEventListener('scroll', function scr() {
   } else {
     navbar.style.transform = "translateY(-10rem)"
   }
-  if (window.scrollY >+ 1700) {
-    li1.style.transition = "0.5s ease"
-    li2.style.transition = "0.5s ease"
-    li3.style.transition = "0.5s ease"
-    li1.style.color = "var(--lilla)"
-    li2.style.color = "var(--lilla)"
-    li3.style.color = "var(--lilla)"
-    lis.forEach((li) => {
-      li.style.setProperty('--li-hover', 'rgb(152, 145, 251)');
-    });
-  } else {
-    li1.style.color = "white"
-    li2.style.color = "white"
-    li3.style.color = "white"
-    lis.forEach((li) => {
-      li.style.setProperty('--li-hover', 'white');
-    });
-  }
-  if (window.scrollY >+ 2400) {
-    li1.style.transition = "0.5s ease"
-    li2.style.transition = "0.5s ease"
-    li3.style.transition = "0.5s ease"
-    li1.style.color = "white"
-    li2.style.color = "white"
-    li3.style.color = "white"
-    lis.forEach((li) => {
-      li.style.setProperty('--li-hover', 'white');
-    });
-  } 
-  if (window.scrollY >+ 3400) {
-    li1.style.transition = "0.5s ease"
-    li2.style.transition = "0.5s ease"
-    li3.style.transition = "0.5s ease"
-    li1.style.color = "var(--lilla)"
-    li2.style.color = "var(--lilla)"
-    li3.style.color = "var(--lilla)"
-    lis.forEach((li) => {
-      li.style.setProperty('--li-hover', 'rgb(152, 145, 251)');
-    });
-  }
 })
 
 function flipAboutMe() {
