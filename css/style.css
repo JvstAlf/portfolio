@@ -202,8 +202,7 @@ body {
   height: 100vh;
   transform: translateY(-100%);
   padding: 2rem;
-  display: grid;
-  grid-template-columns: 35% 65%;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -213,7 +212,7 @@ body {
   position: absolute;
   top: 1rem;
   right: 2rem;
-  background-color: #f6f6f6;
+  background-color: #e8e8e8;
   padding: 0 .5rem;
   border-radius: 1rem;
   display: flex;
@@ -526,9 +525,12 @@ progress::-webkit-progress-value {
 
 .thumbnails {
   flex-direction: column;
-  height: calc(100% + 5rem);
-  justify-content: flex-start;
-  padding: 4rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.banners {
+  justify-content: center;
 }
 
 .thumbnails a {
@@ -547,10 +549,6 @@ progress::-webkit-progress-value {
   display: flex;
   height: 100%;
   flex-direction: column;
-}
-
-.banners {
-  height: 50%;
 }
 
 .posters {
@@ -624,6 +622,7 @@ p {
   border-radius: 30px;
   overflow: hidden;
   width: 525px;
+  height: auto;
   position: relative;
   box-shadow: 0 0 30px -20px #223344;
   margin: auto;
@@ -639,6 +638,7 @@ p {
   border-radius: 30px;
   overflow: hidden;
   width: 640px;
+  height: auto;
   position: relative;
   box-shadow: 0 0 30px -20px #223344;
   margin: auto;
@@ -654,6 +654,7 @@ p {
   border-radius: 30px;
   overflow: hidden;
   width: 852px;
+  height: auto;
   position: relative;
   box-shadow: 0 0 30px -20px #223344;
   margin: auto;
