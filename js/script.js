@@ -144,7 +144,6 @@ function website2() {
     window.open('https://off---white.vercel.app/')
   } else {
     iframe.setAttribute('src', 'https://off---white.vercel.app/')
-    alert('website is unfinished')
   }
 }
 
