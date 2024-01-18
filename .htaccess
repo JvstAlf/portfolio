@@ -1,4 +1,0 @@
-AuthType Basic 
-AuthName "Embed Generator" 
-AuthUserFile js/.htpasswd 
-require valid-user
