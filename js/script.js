@@ -190,5 +190,5 @@ function openWebsite() {
 }
 
 function openPortfolio() {
-  window.open('../images/Portfolio.pdf')
+  window.open('https://drive.google.com/file/d/1nrTgpdwTIjI2ywoTlYrzBeXJNUphGwae/view?usp=drive_link')
 }
