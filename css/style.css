@@ -562,10 +562,9 @@ progress::-webkit-progress-value {
   padding: 0;
   border: none;
   background: rgba(0, 0, 0, 0);
-  width: 16rem;
   height: 16rem;
   border-radius: 4.2rem;
-  object-fit: cover;
+  object-fit: contain;
   object-position: 0 10%;
   z-index: 100;
   margin-left: 1rem;
